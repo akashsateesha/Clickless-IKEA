@@ -1,0 +1,24 @@
+# Core Web Framework
+Flask==3.1.2
+Flask-Session==0.8.0
+markdown==3.4.1
+
+# Browser Automation
+playwright==1.47.0
+
+# LLM & AI
+google-generativeai==0.8.3
+langgraph==0.2.49
+langchain-core==0.3.21
+langchain-google-genai==2.0.5
+
+# Vector Database & RAG
+chromadb==0.5.18
+
+# Async & Utilities
+nest-asyncio==1.6.0
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Testing
+pytest==7.4.0
