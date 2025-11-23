@@ -43,7 +43,6 @@ venv.bak/
 .env.local
 
 # Data Files
-data/raw/*.json
 data/processed/*.json
 data/embeddings/*.json
 *.csv

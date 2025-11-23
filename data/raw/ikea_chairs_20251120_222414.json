@@ -1,0 +1,3322 @@
+{
+  "products": [
+    {
+      "product_id": "90576583",
+      "name": "MULLSJÖ Swivel chair, Gräsnäs dark gray",
+      "price": 149.99,
+      "currency": "USD",
+      "description": "A perfect blend of comfort, style and functionality. Designed with modern living in mind, this chair features sleek lines, a robust steel frame and provides excellent support – and its cover is removable!",
+      "specifications": {
+        "material": {
+          "Base fabric": "100% polyester (min. 90% recycled)",
+          "Base": "Polypropylene, Polypropylene",
+          "Adjustment lever/ Seat frame/ Armrest frame/ Mounting plate/ Hub/ Leg frame": "Steel, Epoxy/polyester powder coating",
+          "Comfort filling": "Polyurethane foam, Polyurethane foam",
+          "Top": "ABS plastic",
+          "Lining, top": "100 %polyester",
+          "Elastic band": "60 % rubber, 40 %polyester",
+          "Hook and loop fastener": "100 % nylon",
+          "Sewing thread": "100 % polyester"
+        },
+        "dimensions": {
+          "width": "19 1/4 \"",
+          "depth": "18 1/8 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "243 lb",
+        "color": "Gräsnäs dark gray",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/mullsjoe-swivel-chair-graesnaes-dark-gray__1376248_pe960428_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 3.9,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/mullsjoe-swivel-chair-graesnaes-dark-gray-90576583/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:15:41.681784",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "40 %polyester",
+        "60 % rubber",
+        "abs plastic",
+        "armrest",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gräsnäs dark gray",
+        "modern",
+        "polypropylene",
+        "polyurethane foam",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "30553240",
+      "name": "MULLSJÖ Desk, oak veneer,53 1/8x27 1/2 \"",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "Stylish work-from-home desk with a combination of modern design and smart storage solutions. Helps keep your workspace clutter-free and organized – so you can stay focused and productive.",
+      "specifications": {
+        "material": {
+          "Table top": "Particleboard, Oak veneer, Tinted clear acrylic lacquer, Tinted clear acrylic lacquer, Plastic edging",
+          "Top frame": "Particleboard, Melamine foil, Acrylic paint, Plastic edging",
+          "Side frame/ Rail/ Storage": "Steel, Epoxy/polyester powder coating",
+          "Cable management": "Mixed fibers (min. 80% recycled)"
+        },
+        "dimensions": {
+          "Max. load": "110 lb",
+          "Max load/shelf": "44 lb",
+          "width": "53 1/8 \"",
+          "depth": "27 1/2 \"",
+          "height": "26 3/4 \""
+        },
+        "weight": null,
+        "color": "oak veneer,53 1/8x27 1/2 \"",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/mullsjoe-desk-oak-veneer__1351177_pe951915_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.8,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/mullsjoe-desk-oak-veneer-30553240/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:15:49.157601",
+      "tags": [
+        "acrylic paint",
+        "desk",
+        "epoxy/polyester powder coating",
+        "melamine foil",
+        "mixed fibers (min. 80% recycled)",
+        "modern",
+        "oak veneer",
+        "oak veneer,53 1/8x27 1/2 \"",
+        "office",
+        "particleboard",
+        "plastic edging",
+        "steel",
+        "tinted clear acrylic lacquer"
+      ]
+    },
+    {
+      "product_id": "10516786",
+      "name": "SKURUP Work lamp, black",
+      "price": 24.99,
+      "currency": "USD",
+      "description": "Metal, rugged constructions and timeless design – enjoy the SKURUP lamp series for a long time. Simple adjustments and different types of lamps make the series practical and flexible throughout the home.",
+      "specifications": {
+        "material": {
+          "Weight": "EVA plastic",
+          "Cover/ Tube/ Shade": "Steel, Powder coating"
+        },
+        "dimensions": {
+          "Base diameter": "7 \"",
+          "Cord length": "6 ' 7 \"",
+          "height": "16 \"",
+          "Max.": "5.3 W",
+          "Shade diameter": "6 \""
+        },
+        "weight": null,
+        "color": "black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/skurup-work-lamp-black__1019457_pe831378_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.8,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/skurup-work-lamp-black-10516786/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:15:57.680670",
+      "tags": [
+        "black",
+        "desk",
+        "eva plastic",
+        "office",
+        "powder coating",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "40601603",
+      "name": "NATTBAD Bluetooth speaker, black",
+      "price": 49.99,
+      "currency": "USD",
+      "description": "Music has never looked better! NATTBAD Bluetooth speaker is the perfect combination of interior decor and sound. Choose a color that stands out or blends in – and fill your home with music in no time.",
+      "specifications": {
+        "material": {
+          "Base/ Buttons": "ABS plastic",
+          "Fabric cover": "100 %polyester",
+          "Foot": "Silicone rubber"
+        },
+        "dimensions": {
+          "depth": "3 5/8 \"",
+          "height": "7 \"",
+          "width": "4 7/8 \"",
+          "Cord length": "6 ' 7 \""
+        },
+        "weight": null,
+        "color": "black",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/nattbad-bluetooth-speaker-black__1380136_pe961631_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 3.9,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/nattbad-bluetooth-speaker-black-40601603/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:16:05.094626",
+      "tags": [
+        "100 %polyester",
+        "abs plastic",
+        "black",
+        "desk",
+        "fabric",
+        "modern",
+        "silicone rubber"
+      ]
+    },
+    {
+      "product_id": "30555300",
+      "name": "HARVMATTA Box with lid, anthracite,9 ½x13 ¾x2 ¼ \"",
+      "price": 17.99,
+      "currency": "USD",
+      "description": "This organizer helps you keep your desk neat and tidy. The cork lid adds a quality feel and it will keep other boxes in place if you choose to stack them.",
+      "specifications": {
+        "material": {
+          "Main parts": "Steel, Epoxy/polyester powder coating",
+          "Cover": "Cork"
+        },
+        "dimensions": {
+          "depth": "13 ¾ \"",
+          "height": "2 ¼ \"",
+          "width": "9 ½ \""
+        },
+        "weight": null,
+        "color": "anthracite,9 ½x13 ¾x2 ¼ \"",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/harvmatta-box-with-lid-anthracite__1176350_pe896444_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/harvmatta-box-with-lid-anthracite-30555300/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:16:12.034171",
+      "tags": [
+        "anthracite,9 ½x13 ¾x2 ¼ \"",
+        "cork",
+        "desk",
+        "epoxy/polyester powder coating",
+        "office",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "90289172",
+      "name": "MARKUS Office chair, Vissle dark gray,Medium",
+      "price": 299.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with features like a manually adjustable tilt tension, and head-/armrests to help relax the muscles in your neck and back. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Back frame/ Armrest frame/ Back bar": "Steel, Epoxy/polyester powder coating",
+          "Armrest pad": "Polypropylene, Synthetic rubber",
+          "Foam": "Polyurethane foam 2.2 lb/cu.ft.",
+          "Seat frame": "Layer-glued wood veneer",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back fabric": "100 %polyester",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "18 1/2 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "276 lb",
+        "color": "Vissle dark gray,Medium",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-dark-gray__0724714_pe734597_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/markus-office-chair-vissle-dark-gray-90289172/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:16:19.646844",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "office",
+        "polypropylene",
+        "polyurethane foam 2.2 lb/cu.ft.",
+        "steel",
+        "synthetic rubber",
+        "vissle dark gray,medium"
+      ]
+    },
+    {
+      "product_id": "30521862",
+      "name": "MARKUS Office chair, Vissle light gray,Medium",
+      "price": 299.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with features like a manually adjustable tilt tension, and head-/armrests to help relax the muscles in your neck and back. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Back frame/ Armrest frame/ Back bar": "Steel, Epoxy/polyester powder coating",
+          "Armrest pad": "Polypropylene, Synthetic rubber",
+          "Foam": "Polyurethane foam 2.2 lb/cu.ft.",
+          "Seat frame": "Layer-glued wood veneer",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back fabric": "100 %polyester",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "18 1/2 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "276 lb",
+        "color": "Vissle light gray,Medium",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-light-gray__1101440_pe866425_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/markus-office-chair-vissle-light-gray-30521862/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:16:27.305205",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "office",
+        "polypropylene",
+        "polyurethane foam 2.2 lb/cu.ft.",
+        "steel",
+        "synthetic rubber",
+        "vissle light gray,medium"
+      ]
+    },
+    {
+      "product_id": "00489397",
+      "name": "MILLBERGET Swivel chair, Murum black",
+      "price": 99.99,
+      "currency": "USD",
+      "description": "MILLBERGET swivel chair offers comfort and function when you’re working at the desk. It’s also elegant, generous and blends easily with your living room or bedroom decor.",
+      "specifications": {
+        "material": {
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Seat foam": "Polyurethane foam.",
+          "Back foam": "Polyurethane foam.",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Coated fabric": "100 % polyester, 100 % polyurethane"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "18 1/8 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "243 lb",
+        "color": "Murum black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-murum-black__1020142_pe831799_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-murum-black-00489397/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:16:35.696913",
+      "tags": [
+        "100 % polyester",
+        "100 % polyurethane",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "murum black",
+        "office",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "90489393",
+      "name": "MILLBERGET Swivel chair, Murum beige",
+      "price": 109.99,
+      "currency": "USD",
+      "description": "MILLBERGET swivel chair offers comfort and function when you’re working at the desk. It’s also elegant, generous and blends easily with your living room or bedroom decor.",
+      "specifications": {
+        "material": {
+          "Seat foam": "Polyurethane foam.",
+          "Back foam": "Polyurethane foam.",
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Coated fabric": "100 % polyester, 100 % polyurethane"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "18 1/8 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "243 lb",
+        "color": "Murum beige",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-murum-beige__1020141_pe831795_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-murum-beige-90489393/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:16:44.764722",
+      "tags": [
+        "100 % polyester",
+        "100 % polyurethane",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "murum beige",
+        "office",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "80489402",
+      "name": "MILLBERGET Swivel chair, Murum dark brown",
+      "price": 89.99,
+      "currency": "USD",
+      "description": "MILLBERGET swivel chair offers comfort and function when you’re working at the desk. It’s also elegant, generous and blends easily with your living room or bedroom decor.",
+      "specifications": {
+        "material": {
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Seat foam": "Polyurethane foam.",
+          "Back foam": "Polyurethane foam.",
+          "Coated fabric": "100 % polyester, 100 % polyurethane",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "20 1/2 \"",
+          "depth": "17 3/4 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "276 lb",
+        "color": "Murum dark brown",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/millberget-swivel-chair-murum-dark-brown__1020143_pe831800_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/millberget-swivel-chair-murum-dark-brown-80489402/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:16:52.726553",
+      "tags": [
+        "100 % polyester",
+        "100 % polyurethane",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "murum dark brown",
+        "office",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "19445469",
+      "name": "LOBERGET / MALSKÄR Swivel chair, white",
+      "price": 59.99,
+      "currency": "USD",
+      "description": "Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest.",
+      "specifications": {
+        "material": {
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 \""
+        },
+        "weight": "243 lb",
+        "color": "white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-white__1078458_pe857202_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-white-s19445469/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:17:00.170303",
+      "tags": [
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer",
+        "white"
+      ]
+    },
+    {
+      "product_id": "29488571",
+      "name": "LOBERGET / MALSKÄR Swivel chair, white/black",
+      "price": 59.99,
+      "currency": "USD",
+      "description": "Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest.",
+      "specifications": {
+        "material": {
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 \""
+        },
+        "weight": "243 lb",
+        "color": "white/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-white-black__1110839_pe870604_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-white-black-s29488571/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:17:07.933668",
+      "tags": [
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer",
+        "white/black"
+      ]
+    },
+    {
+      "product_id": "20503284",
+      "name": "RENBERGET Swivel chair, Bomstad black",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair is comfy, lightweight and easy to move around. Adjustable armrests add to the comfort, along with automatic tilt tension and lumbar support. Assembly is quick and easy, with minimal effort required.",
+      "specifications": {
+        "material": {
+          "Textile part": "100 % polyester (100% recycled)",
+          "Coated fabric parts": "100 % polyurethane, 75 % polyester, 25 % cotton",
+          "Back frame": "Steel, Epoxy/polyester powder coating",
+          "Seat foam": "Polyurethane foam., Polyester wadding",
+          "Armrest frame": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "18 7/8 \"",
+          "depth": "16 7/8 \"",
+          "height": "17 3/8 \""
+        },
+        "weight": "243 lb",
+        "color": "Bomstad black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__1020135_pe831794_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.3,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/renberget-swivel-chair-bomstad-black-20503284/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:17:17.312056",
+      "tags": [
+        "100 % polyester (100% recycled)",
+        "100 % polyurethane",
+        "25 % cotton",
+        "75 % polyester",
+        "adjustable",
+        "armrest",
+        "bomstad black",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "office",
+        "polyester wadding",
+        "polypropylene",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "10601124",
+      "name": "CENTERHALV Office chair, black",
+      "price": 299.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair is comfy, lightweight and easy to move around. Adjustable armrests add to the comfort, along with automatic tilt tension and lumbar support. Assembly is quick and easy, with minimal effort required.",
+      "specifications": {
+        "material": {
+          "Back frame": "100 % polyester, Reinforced polyamide, Steel",
+          "Armrest": "Polyurethane foam., Reinforced polyamide, Steel, Acetal plastic",
+          "Lumbar support": "100 % polyester, Polyurethane foam 1.5 lb/cu.ft., Polypropylene",
+          "Seat frame": "Polypropylene, Layer-glued wood veneer, Steel",
+          "Seat cushion": "100 % polyester, Polyurethane foam.",
+          "Star base": "Reinforced polyamide"
+        },
+        "dimensions": {
+          "depth": "18 1/2 \"",
+          "height": "18 1/8 \"",
+          "width": "27 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/centerhalv-office-chair-black__1408739_pe971989_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 5.0,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/centerhalv-office-chair-black-10601124/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:17:27.240677",
+      "tags": [
+        "100 % polyester",
+        "acetal plastic",
+        "adjustable",
+        "armrest",
+        "black",
+        "ergonomic",
+        "layer-glued wood veneer",
+        "office",
+        "polypropylene",
+        "polyurethane foam 1.5 lb/cu.ft.",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "29424471",
+      "name": "FLINTAN Office chair with armrests, black",
+      "price": 119.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with a high backrest that provides good support, made with airy mesh so you stay cool. The seat cover is removable and washable. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Mesh/ Fabric/ Mesh": "100% polyester (min. 90% recycled)",
+          "Back frame/ Gas cylinder/ Leg/ Back frame/ Gas cylinder/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Seat/ Seat": "Polyurethane foam.",
+          "Seat frame/ Seat frame": "Layer-glued wood veneer",
+          "End cap/ End cap": "Reinforced polyamide",
+          "Castor/ Castor": "Polypropylene",
+          "Cover": "ABS plastic",
+          "Armrest frame": "Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "18 1/8 \"",
+          "depth": "19 1/4 \"",
+          "height": "32 1/4 \""
+        },
+        "weight": "276 lb",
+        "color": "black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/flintan-office-chair-with-armrests-black__1007241_pe825960_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-with-armrests-black-s29424471/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:17:35.703370",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "abs plastic",
+        "armrest",
+        "black",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "mesh",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "49424465",
+      "name": "FLINTAN Office chair with armrests, beige",
+      "price": 119.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with a high backrest that provides good support, made with airy mesh so you stay cool. The seat cover is removable and washable. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Mesh/ Fabric/ Mesh": "100% polyester (min. 90% recycled)",
+          "Back frame/ Gas cylinder/ Leg/ Back frame/ Gas cylinder/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Seat/ Seat": "Polyurethane foam.",
+          "Seat frame/ Seat frame": "Layer-glued wood veneer",
+          "End cap/ End cap": "Reinforced polyamide",
+          "Castor/ Castor": "Polypropylene",
+          "Cover": "ABS plastic",
+          "Armrest frame": "Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "18 1/8 \"",
+          "depth": "19 1/4 \"",
+          "height": "32 1/4 \""
+        },
+        "weight": "276 lb",
+        "color": "beige",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/flintan-office-chair-with-armrests-beige__1007238_pe825958_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-with-armrests-beige-s49424465/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:17:43.881174",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "abs plastic",
+        "armrest",
+        "beige",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "mesh",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "59252369",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared beige/white",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared beige/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-beige-white__0725410_pe734846_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-beige-white-s59252369/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:17:52.263809",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared beige/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "59177577",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared dark gray/black",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-dark-gray-black__0726989_pe735480_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-dark-gray-black-s59177577/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:02.423274",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared dark gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "59506069",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared green-gray/white",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared green-gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-green-gray-white__1202295_pe905860_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-green-gray-white-s59506069/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:11.650048",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared green-gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "79252387",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared dark gray/white",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-dark-gray-white__0726973_pe735474_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-dark-gray-white-s79252387/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:20.201918",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared dark gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "29177569",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared beige/black",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared beige/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-beige-black__0725426_pe734858_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-beige-black-s29177569/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:29.630113",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared beige/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "69506059",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared green-gray/black",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared green-gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-green-gray-black__1202293_pe905858_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-green-gray-black-s69506059/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:38.096329",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared green-gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "29506075",
+      "name": "LÅNGFJÄLL Conference chair, Gunnared red-orange/white",
+      "price": 249.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared red-orange/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-gunnared-red-orange-white__1202298_pe905863_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-gunnared-red-orange-white-s29506075/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:46.672134",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared red-orange/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "10367461",
+      "name": "ALEFJÄLL Office chair, Glose black",
+      "price": 399.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a well-shaped backrest with adjustable lumbar support and soft full grain leather that breathes. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Star base center/ Star base leg/ Adjustment lever/ Back frame": "Steel, Epoxy/polyester powder coating",
+          "Cover plate/ Cover": "Polypropylene",
+          "Spring": "Steel",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Leather": "Dyed through top-grain leather with a treated, embossed and pigmented surface",
+          "Backrest cushion": "Polyurethane foam 2.0 lb/cu.ft.",
+          "Core filling": "Polyurethane foam 2.2 lb/cu.ft.",
+          "Cover plate/ Connector": "Reinforced polyamide",
+          "Knob": "Reinforced polypropylene",
+          "Armrest cushion": "Polyurethane foam."
+        },
+        "dimensions": {
+          "width": "20 1/8 \"",
+          "depth": "16 1/2 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "276 lb",
+        "color": "Glose black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/alefjaell-office-chair-glose-black__0724715_pe734598_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/alefjaell-office-chair-glose-black-10367461/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:18:54.179498",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "armrest",
+        "dyed through top-grain leather with a treated",
+        "embossed and pigmented surface",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "glose black",
+        "leather",
+        "office",
+        "polypropylene",
+        "polyurethane foam 2.0 lb/cu.ft.",
+        "polyurethane foam 2.2 lb/cu.ft.",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "reinforced polypropylene",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "00503435",
+      "name": "SMÄLLEN Swivel chair, black",
+      "price": 34.99,
+      "currency": "USD",
+      "description": "SMÄLLEN swivel chair has a clean expression that is easy to match with other furniture and it has a texture that adds a feeling of quality and character. A simple design that’s easy to enjoy!",
+      "specifications": {
+        "material": {
+          "Seat/ Backrest": "Polypropylene plastic (min. 20% recycled)",
+          "Seat frame/ Backrest frame/ Hub/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Threaded column": "Polyamide, Steel, Galvanized, Epoxy/polyester powder coating",
+          "Cover": "Acetal plastic, Polypropylene",
+          "End cap": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "15 3/8 \"",
+          "height": "15 3/4 \""
+        },
+        "weight": "243 lb",
+        "color": "black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/smaellen-swivel-chair-black__1096271_pe864278_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/smaellen-swivel-chair-black-00503435/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:02.310904",
+      "tags": [
+        "acetal plastic",
+        "black",
+        "desk",
+        "epoxy/polyester powder coating",
+        "galvanized",
+        "polyamide",
+        "polypropylene",
+        "polypropylene plastic (min. 20% recycled)",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "19508230",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Gunnared beige/white",
+      "price": 284.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in a durable fabric that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Gunnared beige/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-gunnared-beige-white__1200010_pe904812_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-gunnared-beige-white-s19508230/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:11.435706",
+      "tags": [
+        "100% polyester (min. 40% recycled)",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "gunnared beige/white",
+        "high resilient polyurethane foam (cold foam).",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "69508204",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Grann light brown/black",
+      "price": 384.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in durable leather that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Coated fabric parts": "100 % polyurethane, 75 % polyester, 25 % cotton",
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Leather": "Dyed through top-grain leather with a treated, embossed and pigmented surface",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Grann light brown/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-grann-light-brown-black__1199989_pe904797_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-grann-light-brown-black-s69508204/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:20.481977",
+      "tags": [
+        "100 % polyurethane",
+        "100% polyester (min. 40% recycled)",
+        "25 % cotton",
+        "75 % polyester",
+        "desk",
+        "dyed through top-grain leather with a treated",
+        "embossed and pigmented surface",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "grann light brown/black",
+        "high resilient polyurethane foam (cold foam).",
+        "leather",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "89508236",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Gunnared dark gray/black",
+      "price": 284.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in a durable fabric that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Gunnared dark gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-gunnared-dark-gray-black__1200015_pe904817_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-gunnared-dark-gray-black-s89508236/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:29.130544",
+      "tags": [
+        "100% polyester (min. 40% recycled)",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "gunnared dark gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "49508224",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Gunnared beige/black",
+      "price": 284.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in a durable fabric that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Gunnared beige/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-gunnared-beige-black__1200005_pe904807_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-gunnared-beige-black-s49508224/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:39.011532",
+      "tags": [
+        "100% polyester (min. 40% recycled)",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "gunnared beige/black",
+        "high resilient polyurethane foam (cold foam).",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "69508218",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Grann light brown/white",
+      "price": 384.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in durable leather that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Coated fabric parts": "100 % polyurethane, 75 % polyester, 25 % cotton",
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Leather": "Dyed through top-grain leather with a treated, embossed and pigmented surface",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Grann light brown/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-grann-light-brown-white__1199996_pe904802_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-grann-light-brown-white-s69508218/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:47.934764",
+      "tags": [
+        "100 % polyurethane",
+        "100% polyester (min. 40% recycled)",
+        "25 % cotton",
+        "75 % polyester",
+        "desk",
+        "dyed through top-grain leather with a treated",
+        "embossed and pigmented surface",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "grann light brown/white",
+        "high resilient polyurethane foam (cold foam).",
+        "leather",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "49508243",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Gunnared dark gray/white",
+      "price": 284.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in a durable fabric that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Gunnared dark gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-gunnared-dark-gray-white__1200020_pe904822_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-gunnared-dark-gray-white-s49508243/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:19:55.761969",
+      "tags": [
+        "100% polyester (min. 40% recycled)",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "gunnared dark gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "29508197",
+      "name": "TOSSBERG / MALSKÄR Swivel chair, Grann black/white",
+      "price": 384.99,
+      "currency": "USD",
+      "description": "Swivel chair with a soft shape and nice padding. Upholstered in durable leather that blends well in all types of rooms, and with castors that make it easy to move.",
+      "specifications": {
+        "material": {
+          "Leather": "Dyed through top-grain leather with a treated, embossed and pigmented surface",
+          "Frame": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam)., Steel, Non-woven polypropylene, Fiberboard",
+          "Seat cushion": "100% polyester (min. 40% recycled), High resilient polyurethane foam (cold foam).",
+          "Adapter": "Steel, Epoxy/polyester powder coating",
+          "Coated fabric parts": "100 % polyurethane, 75 % polyester, 25 % cotton",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "17 3/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "Grann black/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/tossberg-malskaer-swivel-chair-grann-black-white__1199975_pe904790_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/tossberg-malskaer-swivel-chair-grann-black-white-s29508197/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:20:03.945138",
+      "tags": [
+        "100 % polyurethane",
+        "100% polyester (min. 40% recycled)",
+        "25 % cotton",
+        "75 % polyester",
+        "desk",
+        "dyed through top-grain leather with a treated",
+        "embossed and pigmented surface",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "fiberboard",
+        "grann black/white",
+        "high resilient polyurethane foam (cold foam).",
+        "leather",
+        "non-woven polypropylene",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer"
+      ]
+    },
+    {
+      "product_id": "90489029",
+      "name": "FLINTAN Office chair, black",
+      "price": 89.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with a high backrest that provides good support, made with airy mesh so you stay cool. The seat cover is removable and washable. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Mesh/ Fabric/ Mesh": "100% polyester (min. 90% recycled)",
+          "Back frame/ Gas cylinder/ Leg/ Back frame/ Gas cylinder/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Seat/ Seat": "Polyurethane foam.",
+          "Seat frame/ Seat frame": "Layer-glued wood veneer",
+          "End cap/ End cap": "Reinforced polyamide",
+          "Castor/ Castor": "Polypropylene"
+        },
+        "dimensions": {
+          "depth": "19 1/4 \"",
+          "width": "18 1/8 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "276 lb",
+        "color": "black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/flintan-office-chair-black__1007236_pe825956_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-black-90489029/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:20:12.150209",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "black",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "mesh",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "00492205",
+      "name": "FLINTAN Office chair, beige",
+      "price": 89.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair keeps you comfy and focused with a high backrest that provides good support, made with airy mesh so you stay cool. The seat cover is removable and washable. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Mesh/ Fabric/ Mesh": "100% polyester (min. 90% recycled)",
+          "Back frame/ Gas cylinder/ Leg/ Back frame/ Gas cylinder/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Seat/ Seat": "Polyurethane foam.",
+          "Seat frame/ Seat frame": "Layer-glued wood veneer",
+          "End cap/ End cap": "Reinforced polyamide",
+          "Castor/ Castor": "Polypropylene"
+        },
+        "dimensions": {
+          "depth": "19 1/4 \"",
+          "width": "18 1/8 \"",
+          "height": "17 3/4 \""
+        },
+        "weight": "276 lb",
+        "color": "beige",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/flintan-office-chair-beige__1007198_pe825954_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-beige-00492205/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:20:20.028144",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "beige",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "mesh",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel"
+      ]
+    },
+    {
+      "product_id": "59445453",
+      "name": "LOBERGET / MALSKÄR Swivel chair + pad, white/dark gray",
+      "price": 69.99,
+      "currency": "USD",
+      "description": "Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest.",
+      "specifications": {
+        "material": {
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene",
+          "Core cover": "100% polyester (min. 70% recycled)",
+          "Slide protection": "100 %polyester"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "white/dark gray",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-pad-white-dark-gray__1078473_pe857209_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-pad-white-dark-gray-s59445453/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:20:28.143640",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 70% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer",
+        "white/dark gray"
+      ]
+    },
+    {
+      "product_id": "09331939",
+      "name": "LOBERGET / MALSKÄR Swivel chair + pad, white black/dark gray",
+      "price": 69.99,
+      "currency": "USD",
+      "description": "Sit comfortably in this padded work chair where you easily adjust the height with the handle. The castors have a braking mechanism that prevents the chair from rolling away when you get up.",
+      "specifications": {
+        "material": {
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene",
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Core cover": "100% polyester (min. 70% recycled)",
+          "Slide protection": "100 %polyester"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "white black/dark gray",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-pad-white-black-dark-gray__0814590_pe772620_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-pad-white-black-dark-gray-s09331939/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:20:36.444581",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 70% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "office",
+        "padded",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer",
+        "wheels",
+        "white black/dark gray"
+      ]
+    },
+    {
+      "product_id": "79602022",
+      "name": "LOBERGET / MALSKÄR Swivel chair + pad, white/orange",
+      "price": 69.99,
+      "currency": "USD",
+      "description": "Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest.",
+      "specifications": {
+        "material": {
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Lamella seat lock/ Gas cylinder/ Star base center/ Leg": "Steel, Epoxy/polyester powder coating",
+          "Adjustment lever": "Thermoplastic elastomer",
+          "Cover/ Wheel": "Polypropylene",
+          "Core cover": "100% polyester (min. 70% recycled)",
+          "Slide protection": "100 %polyester"
+        },
+        "dimensions": {
+          "width": "15 3/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 1/2 \""
+        },
+        "weight": "243 lb",
+        "color": "white/orange",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-pad-white-orange__1429415_pe981870_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-pad-white-orange-s79602022/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:20:45.120972",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 70% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "thermoplastic elastomer",
+        "white/orange"
+      ]
+    },
+    {
+      "product_id": "49590983",
+      "name": "ÖRFJÄLL Swivel chair, white/Vissle dark blue",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BIFMA certified, this swivel chair offers good comfort for many years - thanks to high-quality density foam in the seat and back. The castors have a brake mechanism that keeps the chair in place when you stand up.",
+      "specifications": {
+        "material": {
+          "Base cover": "Polypropylene",
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Tube caps": "Reinforced polyamide",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Backrest frame/ Seat frame": "Layer-glued wood veneer",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Zipper": "100 %polyester",
+          "Lining, underside": "100 % polypropylene",
+          "Frame": "Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "19 1/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "white/Vissle dark blue",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/oerfjaell-swivel-chair-white-vissle-dark-blue__1153112_pe885596_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/oerfjaell-swivel-chair-white-vissle-dark-blue-s49590983/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:20:53.616791",
+      "tags": [
+        "100 % polypropylene",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel",
+        "swivel",
+        "white/vissle dark blue"
+      ]
+    },
+    {
+      "product_id": "99590985",
+      "name": "ÖRFJÄLL Swivel chair, white/Vissle light gray",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BIFMA certified, this swivel chair offers good comfort for many years - thanks to high-quality density foam in the seat and back. The castors have a brake mechanism that keeps the chair in place when you stand up.",
+      "specifications": {
+        "material": {
+          "Base cover": "Polypropylene",
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Tube caps": "Reinforced polyamide",
+          "Backrest frame/ Seat frame": "Layer-glued wood veneer",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Zipper": "100 %polyester",
+          "Lining, underside": "100 % polypropylene",
+          "Frame": "Steel, Epoxy/polyester powder coating",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 1/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "white/Vissle light gray",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/oerfjaell-swivel-chair-white-vissle-light-gray__0978008_pe813981_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/oerfjaell-swivel-chair-white-vissle-light-gray-s99590985/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:21:04.686828",
+      "tags": [
+        "100 % polypropylene",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel",
+        "swivel",
+        "white/vissle light gray"
+      ]
+    },
+    {
+      "product_id": "59602141",
+      "name": "ÖRFJÄLL Swivel chair, white/Vissle green",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BIFMA certified, this swivel chair offers good comfort for many years - thanks to high-quality density foam in the seat and back. The castors have a brake mechanism that keeps the chair in place when you stand up.",
+      "specifications": {
+        "material": {
+          "Backrest frame/ Seat frame": "Layer-glued wood veneer",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Zipper": "100 %polyester",
+          "Lining, underside": "100 % polypropylene",
+          "Frame": "Steel, Epoxy/polyester powder coating",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Base cover": "Polypropylene",
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Tube caps": "Reinforced polyamide"
+        },
+        "dimensions": {
+          "width": "19 1/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 7/8 \""
+        },
+        "weight": "243 lb",
+        "color": "white/Vissle green",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/oerfjaell-swivel-chair-white-vissle-green__1418076_pe976417_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/oerfjaell-swivel-chair-white-vissle-green-s59602141/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:21:13.586060",
+      "tags": [
+        "100 % polypropylene",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel",
+        "swivel",
+        "white/vissle green"
+      ]
+    },
+    {
+      "product_id": "29590984",
+      "name": "ÖRFJÄLL Swivel chair, black/Vissle red",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BIFMA certified, this swivel chair offers good comfort for many years - thanks to high-quality density foam in the seat and back. The castors have a brake mechanism that keeps the chair in place when you stand up.",
+      "specifications": {
+        "material": {
+          "Base cover": "Polypropylene",
+          "Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Tube caps": "Reinforced polyamide",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Backrest frame/ Seat frame": "Layer-glued wood veneer",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Zipper": "100 %polyester",
+          "Lining, underside": "100 % polypropylene",
+          "Frame": "Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "19 1/4 \"",
+          "depth": "16 7/8 \"",
+          "height": "22 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "black/Vissle red",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/oerfjaell-swivel-chair-black-vissle-red__1153077_pe885564_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/oerfjaell-swivel-chair-black-vissle-red-s29590984/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:21:22.876028",
+      "tags": [
+        "100 % polypropylene",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "black/vissle red",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "polypropylene",
+        "polyurethane foam.",
+        "reinforced polyamide",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "00576549",
+      "name": "ROSENTORP Swivel chair, white/Kilanda beige",
+      "price": 159.99,
+      "currency": "USD",
+      "description": "A traditional upholstered swivel chair that makes you want to sit longer, since it helps you maintain good posture, provides comfort – and has a curved back that gives you the feeling of a warm hug.",
+      "specifications": {
+        "material": {
+          "Base fabric": "100 % polyester (100% recycled)",
+          "Base": "Plywood",
+          "Comfort filling": "100 % polyester, Polyurethane foam 2.2 lb/cu.ft.",
+          "Comfort filling/ Smolder resistant lining": "Polyester wadding",
+          "Zipper": "100 %polyester",
+          "Backrest frame/ Leg frame/ Mechanism": "Steel, Epoxy/polyester powder coating",
+          "Foot": "Synthetic rubber",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "16 1/2 \"",
+          "height": "19 1/4 \""
+        },
+        "weight": "243 lb",
+        "color": "white/Kilanda beige",
+        "style": "traditional"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/rosentorp-swivel-chair-white-kilanda-beige__1376242_pe960421_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.8,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/rosentorp-swivel-chair-white-kilanda-beige-00576549/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:21:31.410180",
+      "tags": [
+        "100 % polyester",
+        "100 % polyester (100% recycled)",
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "plywood",
+        "polyester wadding",
+        "polyurethane foam 2.2 lb/cu.ft.",
+        "steel",
+        "swivel",
+        "synthetic rubber",
+        "white/kilanda beige"
+      ]
+    },
+    {
+      "product_id": "50588804",
+      "name": "MARKUS Office chair, Vissle dark gray,Large",
+      "price": 329.99,
+      "currency": "USD",
+      "description": "The ergonomic MARKUS office chairs in different sizes and colors keep you comfortable and focused with functions that help the muscles in the neck and back to relax. 10-year warranty.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Back fabric": "100 %polyester",
+          "Back frame/ Armrest frame/ Back bar": "Steel, Epoxy/polyester powder coating",
+          "Armrest pad": "Polypropylene, Synthetic rubber",
+          "Foam": "Polyurethane foam 2.2 lb/cu.ft.",
+          "Seat frame": "Layer-glued wood veneer",
+          "Star base": "Aluminum, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "22 1/2 \"",
+          "depth": "19 1/4 \"",
+          "height": "22 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Vissle dark gray,Large",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-dark-gray__1415299_pe975233_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.6,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/markus-office-chair-vissle-dark-gray-50588804/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:21:39.934691",
+      "tags": [
+        "100 %polyester",
+        "100% polyester (min. 90% recycled)",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "layer-glued wood veneer",
+        "office",
+        "polypropylene",
+        "polyurethane foam 2.2 lb/cu.ft.",
+        "steel",
+        "synthetic rubber",
+        "vissle dark gray,large"
+      ]
+    },
+    {
+      "product_id": "89252768",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared beige/white",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared beige/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-beige-white__0725412_pe734844_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-beige-white-s89252768/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:21:48.883528",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared beige/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "19506820",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared green-gray/white",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared green-gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-green-gray-white__1202289_pe905854_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-green-gray-white-s19506820/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:21:59.058879",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared green-gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "79177901",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared dark gray/black",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-dark-gray-black__0726991_pe735482_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-dark-gray-black-s79177901/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:07.635869",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared dark gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "79507727",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared red-orange/white",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared red-orange/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-red-orange-white__1202292_pe905857_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-red-orange-white-s79507727/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:16.505309",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared red-orange/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "19252776",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared dark gray/white",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-dark-gray-white__0726976_pe735473_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-dark-gray-white-s19252776/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:25.833586",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared dark gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "79177859",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared beige/black",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared beige/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-beige-black__0725421_pe734853_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-beige-black-s79177859/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:36.044428",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared beige/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "79507732",
+      "name": "LÅNGFJÄLL Conference chair with armrests, Gunnared green-gray/black",
+      "price": 279.99,
+      "currency": "USD",
+      "description": "This easy-to-place conference chair with gently curved lines accentuated by sewn details is kind to your body and pleasant to look at. The tilt and height-adjusting mechanism enables individual comfort.",
+      "specifications": {
+        "material": {
+          "Fabric": "100% polyester (min. 90% recycled)",
+          "Seat": "Steel, Steel",
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Casters": "Polypropylene, Synthetic rubber",
+          "Lamella seat lock": "Steel, Steel, Epoxy/polyester powder coating"
+        },
+        "dimensions": {
+          "width": "20 7/8 \"",
+          "depth": "16 1/8 \"",
+          "height": "20 7/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared green-gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/langfjaell-conference-chair-with-armrests-gunnared-green-gray-black__1202288_pe905853_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/langfjaell-conference-chair-with-armrests-gunnared-green-gray-black-s79507732/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:45.454129",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared green-gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "office",
+        "polypropylene",
+        "steel",
+        "synthetic rubber",
+        "wheels"
+      ]
+    },
+    {
+      "product_id": "00538958",
+      "name": "HATTEFJÄLL Office chair with armrests, Gunnared beige/white",
+      "price": 399.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a synchronized tilt mechanism that allows your body to move more, which improves blood circulation. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Armrest fixture/ Cover/ Inner frame/ Armrest frame/ Button": "Reinforced polyamide",
+          "Armrest pad": "Synthetic rubber",
+          "Back frame": "Layer-glued wood veneer",
+          "Seat frame": "Steel",
+          "Back bar": "Steel, Acrylic paint",
+          "Mechanism": "Steel, Acetal plastic, Reinforced polyamide, Epoxy/polyester powder coating",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back foam/ Seat foam/ Seat cushion": "High resilient polyurethane foam (cold foam).",
+          "Hook and loop fastener": "100 % nylon",
+          "Zipper/ Thread": "100 % polyester",
+          "Fabric/ Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared beige/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-gunnared-beige-white__1019089_pe831297_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/hattefjaell-office-chair-with-armrests-gunnared-beige-white-00538958/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:22:53.322881",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "100% polyester (min. 90% recycled)",
+        "acetal plastic",
+        "acrylic paint",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared beige/white",
+        "high resilient polyurethane foam (cold foam).",
+        "layer-glued wood veneer",
+        "office",
+        "reinforced polyamide",
+        "steel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "00538963",
+      "name": "HATTEFJÄLL Office chair with armrests, Gunnared medium gray/white",
+      "price": 399.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a synchronized tilt mechanism that allows your body to move more, which improves blood circulation. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Armrest fixture/ Cover/ Inner frame/ Armrest frame/ Button": "Reinforced polyamide",
+          "Armrest pad": "Synthetic rubber",
+          "Back frame": "Layer-glued wood veneer",
+          "Seat frame": "Steel",
+          "Back bar": "Steel, Acrylic paint",
+          "Mechanism": "Steel, Acetal plastic, Reinforced polyamide, Epoxy/polyester powder coating",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back foam/ Seat foam/ Seat cushion": "High resilient polyurethane foam (cold foam).",
+          "Hook and loop fastener": "100 % nylon",
+          "Zipper/ Thread": "100 % polyester",
+          "Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared medium gray/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-gunnared-medium-gray-white__1019093_pe831300_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/hattefjaell-office-chair-with-armrests-gunnared-medium-gray-white-00538963/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:23:01.083074",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "100% polyester (min. 90% recycled)",
+        "acetal plastic",
+        "acrylic paint",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared medium gray/white",
+        "high resilient polyurethane foam (cold foam).",
+        "layer-glued wood veneer",
+        "office",
+        "reinforced polyamide",
+        "steel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "20538976",
+      "name": "HATTEFJÄLL Office chair with armrests, Gunnared dark gray/black",
+      "price": 399.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a synchronized tilt mechanism that allows your body to move more, which improves blood circulation. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Back frame": "Layer-glued wood veneer",
+          "Seat frame": "Steel",
+          "Back bar": "Steel, Acrylic paint",
+          "Mechanism": "Steel, Acetal plastic, Reinforced polyamide, Epoxy/polyester powder coating",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back foam/ Seat foam/ Seat cushion": "High resilient polyurethane foam (cold foam).",
+          "Hook and loop fastener": "100 % nylon",
+          "Zipper/ Thread": "100 % polyester",
+          "Armrest fixture/ Cover/ Inner frame/ Armrest frame/ Button": "Reinforced polyamide",
+          "Armrest pad": "Synthetic rubber",
+          "Fabric/ Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-gunnared-dark-gray-black__1179620_pe896020_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/hattefjaell-office-chair-with-armrests-gunnared-dark-gray-black-20538976/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:23:09.340436",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "100% polyester (min. 90% recycled)",
+        "acetal plastic",
+        "acrylic paint",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared dark gray/black",
+        "high resilient polyurethane foam (cold foam).",
+        "layer-glued wood veneer",
+        "office",
+        "reinforced polyamide",
+        "steel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "90538968",
+      "name": "HATTEFJÄLL Office chair with armrests, Smidig black/black",
+      "price": 429.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a well-shaped backrest with adjustable lumbar support and soft full grain leather that breathes. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Armrest fixture/ Cover/ Inner frame/ Armrest frame/ Button": "Reinforced polyamide",
+          "Armrest pad": "Synthetic rubber",
+          "Back frame": "Layer-glued wood veneer",
+          "Seat frame": "Steel",
+          "Back bar": "Steel, Acrylic paint",
+          "Mechanism": "Steel, Acetal plastic, Reinforced polyamide, Epoxy/polyester powder coating",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back foam/ Seat foam/ Seat cushion": "High resilient polyurethane foam (cold foam).",
+          "Hook and loop fastener": "100 % nylon",
+          "Zipper/ Thread": "100 % polyester",
+          "Main parts": "Goatskin"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Smidig black/black",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-smidig-black-black__1019087_pe831296_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/hattefjaell-office-chair-with-armrests-smidig-black-black-90538968/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:23:18.074839",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "acetal plastic",
+        "acrylic paint",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "goatskin",
+        "high resilient polyurethane foam (cold foam).",
+        "layer-glued wood veneer",
+        "leather",
+        "office",
+        "reinforced polyamide",
+        "smidig black/black",
+        "steel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "60525104",
+      "name": "HATTEFJÄLL Office chair with armrests, Gunnared red/white",
+      "price": 379.99,
+      "currency": "USD",
+      "description": "This ergonomic office chair has many features to keep you comfy and focused, such as a synchronized tilt mechanism that allows your body to move more, which improves blood circulation. 10 year guarantee.",
+      "specifications": {
+        "material": {
+          "Armrest fixture/ Cover/ Inner frame/ Armrest frame/ Button": "Reinforced polyamide",
+          "Armrest pad": "Synthetic rubber",
+          "Back frame": "Layer-glued wood veneer",
+          "Seat frame": "Steel",
+          "Back bar": "Steel, Acrylic paint",
+          "Mechanism": "Steel, Acetal plastic, Reinforced polyamide, Epoxy/polyester powder coating",
+          "Star base": "Aluminum, Epoxy/polyester powder coating",
+          "Back foam/ Seat foam/ Seat cushion": "High resilient polyurethane foam (cold foam).",
+          "Hook and loop fastener": "100 % nylon",
+          "Zipper/ Thread": "100 % polyester",
+          "Fabric/ Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "width": "19 5/8 \"",
+          "depth": "15 3/4 \"",
+          "height": "18 1/8 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared red/white",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-gunnared-red-white__1179627_pe896027_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.2,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/hattefjaell-office-chair-with-armrests-gunnared-red-white-60525104/",
+      "category": "chairs",
+      "subcategory": "office",
+      "scraped_at": "2025-11-20T22:23:28.426031",
+      "tags": [
+        "100 % nylon",
+        "100 % polyester",
+        "100% polyester (min. 90% recycled)",
+        "acetal plastic",
+        "acrylic paint",
+        "adjustable",
+        "aluminum",
+        "armrest",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "fabric",
+        "gunnared red/white",
+        "high resilient polyurethane foam (cold foam).",
+        "layer-glued wood veneer",
+        "office",
+        "reinforced polyamide",
+        "steel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "50445787",
+      "name": "LIDKULLEN Sit/stand support, Gunnared dark gray",
+      "price": 149.99,
+      "currency": "USD",
+      "description": "Moves you when seated. This sit/stand support helps you to sit actively. A smart mechanism keeps your body in constant motion, strengthens muscles and the spine – and gives you a naturally healthy posture.",
+      "specifications": {
+        "material": {
+          "Seat foam": "High resilient polyurethane foam (cold foam).",
+          "Seat": "Molded eucalyptus plywood",
+          "Cover, underside": "Polypropylene, Non-woven polypropylene",
+          "Mechanism/ Gas cylinder": "Steel, Epoxy powder coating",
+          "Foot ring/ Star base leg": "Aluminum, Epoxy/polyester powder coating",
+          "Feet": "Synthetic rubber",
+          "Fabric/ Fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "Seat diameter": "15 \"",
+          "width": "23 5/8 \"",
+          "height": "23 1/4 \""
+        },
+        "weight": "276 lb",
+        "color": "Gunnared dark gray",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/lidkullen-sit-stand-support-gunnared-dark-gray__0771308_pe755688_s5.jpg"
+      ],
+      "availability": false,
+      "stock_status": "Out of stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/lidkullen-sit-stand-support-gunnared-dark-gray-50445787/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:23:36.657423",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "aluminum",
+        "desk",
+        "epoxy powder coating",
+        "epoxy/polyester powder coating",
+        "fabric",
+        "gunnared dark gray",
+        "high resilient polyurethane foam (cold foam).",
+        "molded eucalyptus plywood",
+        "non-woven polypropylene",
+        "polypropylene",
+        "steel",
+        "swivel",
+        "synthetic rubber"
+      ]
+    },
+    {
+      "product_id": "44881100",
+      "name": "KOLON Floor protector,47 1/4x39 3/8 \"",
+      "price": 19.99,
+      "currency": "USD",
+      "description": "A practical solution for under your work chair to spare your floor from spills, wear and dirt. It’s transparent so your rug or floor will shine through.",
+      "specifications": {
+        "material": {},
+        "dimensions": {
+          "Length": "39 3/8 \"",
+          "width": "47 1/4 \"",
+          "Thickness": "1/8 \"",
+          "Area": "12.92 sq feet"
+        },
+        "weight": null,
+        "color": "47 1/4x39 3/8 \"",
+        "style": null
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/kolon-floor-protector__0292207_pe425129_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.4,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/kolon-floor-protector-44881100/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:23:45.090301",
+      "tags": [
+        "47 1/4x39 3/8 \"",
+        "desk",
+        "office"
+      ]
+    },
+    {
+      "product_id": "59337670",
+      "name": "LOBERGET / SIBBEN Child's desk chair, white",
+      "price": 29.99,
+      "currency": "USD",
+      "description": "On this sturdy desk chair your child sits comfortably – whether homework needs to be done or adding touches to arts and crafts. The height is easy to adjust and the modern, clean design suits everything.",
+      "specifications": {
+        "material": {
+          "Seat": "Polypropylene",
+          "Nut": "Steel, Galvanized",
+          "Base plate/ Star base center/ Star base leg": "Steel, Epoxy/polyester powder coating",
+          "Threaded column": "Polyamide, Acetal plastic, Steel, Galvanized, Epoxy/polyester powder coating",
+          "Cover/ Tube caps": "Polypropylene"
+        },
+        "dimensions": {
+          "width": "12 1/4 \"",
+          "depth": "12 5/8 \"",
+          "height": "19 1/4 \""
+        },
+        "weight": "243 lb",
+        "color": "white",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/loberget-sibben-childs-desk-chair-white__0826517_pe776395_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.5,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/loberget-sibben-childs-desk-chair-white-s59337670/",
+      "category": "chairs",
+      "subcategory": "kids",
+      "scraped_at": "2025-11-20T22:23:54.574713",
+      "tags": [
+        "acetal plastic",
+        "epoxy/polyester powder coating",
+        "ergonomic",
+        "galvanized",
+        "kids",
+        "modern",
+        "office",
+        "polyamide",
+        "polypropylene",
+        "steel",
+        "white"
+      ]
+    },
+    {
+      "product_id": "10564329",
+      "name": "BLECKBERGET Swivel chair, Klovsta white/orange-brown",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BLECKBERGET is inspired by traditional chairs from the 50’s and 60’s, but with a modern twist to suit today’s way of life and work. Nice to look at, comfortable to sit on and easy to use everywhere at home.",
+      "specifications": {
+        "material": {
+          "Base fabric": "100% polyester (min. 90% recycled)",
+          "Backrest frame/ Seat frame/ Star base center/ Leg": "Steel, Epoxy powder coating",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Cover": "Polypropylene"
+        },
+        "dimensions": {
+          "depth": "17 3/8 \"",
+          "width": "18 1/2 \"",
+          "height": "18 1/2 \""
+        },
+        "weight": "276 lb",
+        "color": "Klovsta white/orange-brown",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/bleckberget-swivel-chair-klovsta-white-orange-brown__1305672_pe939564_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.1,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/bleckberget-swivel-chair-klovsta-white-orange-brown-10564329/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:24:04.118012",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy powder coating",
+        "ergonomic",
+        "fabric",
+        "klovsta white/orange-brown",
+        "modern",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    },
+    {
+      "product_id": "20573272",
+      "name": "BLECKBERGET Swivel chair, Klovsta white/gray",
+      "price": 79.99,
+      "currency": "USD",
+      "description": "BLECKBERGET is inspired by traditional chairs from the 50’s and 60’s, but with a modern twist to suit today’s way of life and work. Nice to look at, comfortable to sit on and easy to use everywhere at home.",
+      "specifications": {
+        "material": {
+          "Backrest frame/ Seat frame/ Star base center/ Leg": "Steel, Epoxy powder coating",
+          "Comfort filling": "Polyurethane foam., Polyurethane foam.",
+          "Cover": "Polypropylene",
+          "Base fabric": "100% polyester (min. 90% recycled)"
+        },
+        "dimensions": {
+          "depth": "17 3/8 \"",
+          "width": "18 1/2 \"",
+          "height": "18 1/2 \""
+        },
+        "weight": "276 lb",
+        "color": "Klovsta white/gray",
+        "style": "modern"
+      },
+      "features": [],
+      "images": [
+        "https://www.ikea.com/us/en/images/products/bleckberget-swivel-chair-klovsta-white-gray__1305680_pe939572_s5.jpg"
+      ],
+      "availability": true,
+      "stock_status": "In stock",
+      "reviews": {
+        "rating": 4.1,
+        "count": 0
+      },
+      "product_url": "https://www.ikea.com/us/en/p/bleckberget-swivel-chair-klovsta-white-gray-20573272/",
+      "category": "chairs",
+      "subcategory": "desk",
+      "scraped_at": "2025-11-20T22:24:13.683821",
+      "tags": [
+        "100% polyester (min. 90% recycled)",
+        "desk",
+        "epoxy powder coating",
+        "ergonomic",
+        "fabric",
+        "klovsta white/gray",
+        "modern",
+        "office",
+        "polypropylene",
+        "polyurethane foam.",
+        "steel",
+        "swivel"
+      ]
+    }
+  ],
+  "metadata": {
+    "count": 60,
+    "scraped_at": "2025-11-20T22:24:14.978228",
+    "stats": {
+      "total": 60,
+      "successful": 60,
+      "failed": 0
+    }
+  }
+}
