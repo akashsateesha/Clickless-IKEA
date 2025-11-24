@@ -228,6 +228,54 @@ HTML = """
           max-width: 90%;
       }
       
+      /* Better typography for bot messages */
+      .bot-message p {
+          margin: 8px 0;
+          line-height: 1.6;
+      }
+      
+      .bot-message p:first-child {
+          margin-top: 0;
+      }
+      
+      .bot-message p:last-child {
+          margin-bottom: 0;
+      }
+      
+      .bot-message ol, .bot-message ul {
+          margin: 12px 0;
+          padding-left: 24px;
+      }
+      
+      .bot-message li {
+          margin: 6px 0;
+          line-height: 1.6;
+      }
+      
+      .bot-message strong {
+          color: var(--ikea-blue);
+          font-weight: 600;
+      }
+      
+      .bot-message em {
+          color: var(--text-secondary);
+          font-style: italic;
+      }
+      
+      .bot-message h3, .bot-message h4 {
+          color: var(--ikea-blue);
+          margin: 16px 0 8px 0;
+          font-weight: 600;
+      }
+      
+      .bot-message h3 {
+          font-size: 1.1em;
+      }
+      
+      .bot-message h4 {
+          font-size: 1em;
+      }
+      
       .bot-avatar {
           width: 32px;
           height: 32px;
@@ -501,14 +549,14 @@ HTML = """
                 
                 <div class="input-area">
                     <div class="quick-actions">
-                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='show me office chairs';document.querySelector('form').submit()">Show chairs</div>
-                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='view my cart';document.querySelector('form').submit()">View Cart</div>
-                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='show chairs under $200';document.querySelector('form').submit()">Under $200</div>
+                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\'q\']').value='show me office chairs';document.querySelector('form').submit()">Office chairs</div>
+                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\'q\']').value='view my cart';document.querySelector('form').submit()">View Cart</div>
+                        <div class="quick-action-chip" onclick="document.querySelector('input[name=\'q\']').value='ergonomic chairs under $200';document.querySelector('form').submit()">Ergonomic Under $200</div>
                     </div>
                     
                     <form action="/" method="post" class="input-row" onsubmit="showTyping()">
                         <button type="button" class="voice-btn" title="Voice input">🎤</button>
-                        <input type="text" name="q" placeholder="Ask about furniture..." required autocomplete="off" autofocus>
+                        <input type="text" name="q" placeholder="Ask me about chairs..." required autocomplete="off" autofocus>
                         <button type="submit">↑</button>
                     </form>
                 </div>
@@ -604,6 +652,23 @@ def index():
     if 'last_products' not in session: session['last_products'] = []
     if 'cart_items' not in session: session['cart_items'] = []
     if 'pending_search_context' not in session: session['pending_search_context'] = None
+    if 'last_mentioned_product_index' not in session: session['last_mentioned_product_index'] = None
+    
+    # Add welcome greeting for new sessions
+    if len(session['history']) == 0:
+        welcome_message = """<div style="padding: 10px;">
+            <h3 style="color: var(--ikea-blue); margin-bottom: 12px;">Welcome to IKEA Chair Shopping Assistant! 🛋️</h3>
+            <p style="margin-bottom: 12px;">I'm here to help you find the perfect chair from our IKEA collection. I can help you:</p>
+            <ul style="margin-left: 20px; margin-bottom: 12px;">
+                <li>Search for chairs based on your preferences</li>
+                <li>Filter by price, color, and features</li>
+                <li>Add chairs to your cart</li>
+                <li>Manage your shopping cart</li>
+            </ul>
+            <p style="margin-bottom: 12px; font-weight: 500;">Let's get started! What type of chair are you looking for?</p>
+        </div>"""
+        session['history'].append({'type': 'agent', 'content': welcome_message})
+        session.modified = True
     
     if request.method == 'POST':
         query = request.form.get('q', '')
@@ -611,12 +676,13 @@ def index():
             session['history'].append({'type': 'user', 'content': query})
             
             # Run agent
-            response, updated_messages, updated_products, updated_cart, updated_pending = handle_query(
+            response, updated_messages, updated_products, updated_cart, updated_pending, updated_last_mentioned = handle_query(
                 query,
                 session['messages'],
                 session['last_products'],
                 session['cart_items'],
-                session['pending_search_context']
+                session['pending_search_context'],
+                session['last_mentioned_product_index']
             )
             
             try:
@@ -628,6 +694,7 @@ def index():
             session['last_products'] = updated_products
             session['cart_items'] = updated_cart
             session['pending_search_context'] = updated_pending
+            session['last_mentioned_product_index'] = updated_last_mentioned
             session['history'].append({'type': 'agent', 'content': html_response})
             session.modified = True
     

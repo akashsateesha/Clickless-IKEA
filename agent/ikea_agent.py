@@ -27,6 +27,7 @@ class AgentState(TypedDict):
     last_shown_products: list  # Track products shown for follow-up context
     cart_items: list  # Local cart state
     pending_clarification_context: dict  # Track clarification flow state
+    last_mentioned_product_index: int  # Track which product is currently being discussed
 
 def call_gemini_api(prompt: str) -> str:
     """Helper to call Gemini API directly."""
@@ -105,7 +106,16 @@ def analyze_user_intent(query: str, conversation_history: list, last_products: l
         cart_context_info += f"\nTOTAL: ${total_with_tax:.2f}"
         cart_context_info += "\n\nIMPORTANT: When user asks about cart total or cart summary, use the EXACT information above. Don't say you need to look it up - the data is already here with confirmed prices."
     
-    analysis_prompt = f"""You are analyzing a user's query in a conversation about IKEA products.
+    analysis_prompt = f"""You are analyzing a user's query in a conversation with the IKEA Chair Shopping Assistant.
+
+IMPORTANT: This assistant ONLY helps with IKEA chairs. If user asks about other furniture (tables, desks, sofas, etc.), 
+classify as 'other' intent so we can redirect them back to chairs.
+
+MULTI-TURN CONVERSATION HANDLING:
+- Users may provide partial information first (e.g., "office chairs in black")
+- Then add more details later (e.g., "with armrests")
+- You must ACCUMULATE preferences across the conversation
+- Look at recent conversation history to understand the full context
 
 PREVIOUS PRODUCTS SHOWN:
 {product_list if product_list else "None yet"}
@@ -115,11 +125,18 @@ RECENT CONVERSATION:
 
 USER'S LATEST QUERY: "{query}"
 
-Analyze the user's intent and extract key information. Respond in JSON format:
+Analyze the user's intent and extract key information. If this is a follow-up that adds to previous preferences, 
+MERGE the new information with what was discussed before.
+
+For example:
+- User: "office chairs in black" → {{category: "office chair", colors: ["black"]}}
+- User: "with armrests" → {{category: "office chair", colors: ["black"], features: ["armrests"]}} (merged!)
+
+Respond in JSON format:
 
 {{
   "intent": "<greeting|search|clarification|follow_up|refinement|add_to_cart|view_cart|remove_from_cart|other>",
-  "product_category": "<category if mentioned, else null>",
+  "product_category": "<category if mentioned OR inferred from context, else null>",
   "preferences": {{
       "price_range": {{"min": <number or null>, "max": <number or null>}},
       "colors": ["<color1>", "<color2>"],
@@ -135,10 +152,15 @@ Analyze the user's intent and extract key information. Respond in JSON format:
 
 INTENT TYPES:
 - greeting: User says hi, hello, etc.
-- search: User wants to find products AND has provided specific preferences (e.g. "red chair under $100").
-- clarification: User asks a BROAD search query without details (e.g. "chairs", "table", "bed") AND no products have been shown yet -> MARK AS CLARIFICATION so we can ask for preferences.
+- search: User wants to find chairs AND has provided AT LEAST ONE detail (type, color, price range, OR features). Examples:
+  * "office chairs" → SEARCH (has type)
+  * "black chairs" → SEARCH (has color)
+  * "chairs under $200" → SEARCH (has price)
+  * "chairs with armrests" → SEARCH (has feature)
+  * "chairs with armrests less than $300 in black" → SEARCH (has multiple details)
+- clarification: User asks ONLY for "chairs" or "looking for chairs" with ZERO additional details (no type, no color, no price, no features) → MARK AS CLARIFICATION.
 - follow_up: User asking about previously shown products (e.g. "tell me about the first one", "what features does it have?")
-- refinement: User wants to modify/filter the previous search results. This includes:
+- refinement: User wants to modify/filter the previous search results after products were shown. This includes:
   * Explicit refinements: "show me cheaper options", "what about white ones?"
   * Adding constraints after seeing results: "under $200", "less than 250$", "in black", "with wheels"
   * IMPORTANT: If products were just shown and user provides ONLY a price/color/feature (e.g. just "under 250$"), treat as REFINEMENT of the last search
@@ -147,16 +169,21 @@ INTENT TYPES:
 - remove_from_cart: User wants to remove a product (e.g. "remove the first one", "delete the chair", "delete from cart", "remove from cart", "clear cart")
 - other: Anything else (including cart total questions, which should be handled conversationally)
 
-REFINEMENT DETECTION RULES:
-- If products were shown in PREVIOUS PRODUCTS SHOWN and user query is just a constraint (price, color, feature), classify as REFINEMENT
-- Examples of refinement queries: "under $200", "less than 250$", "in black", "with armrests", "cheaper options"
+KEY RULE: Be PERMISSIVE with search classification. If the user mentions chairs with ANY detail at all (type, color, price, feature), classify as 'search', NOT 'clarification'.
+
+MULTI-TURN SEARCH DETECTION:
+- If user previously mentioned a chair type (in conversation history) and now adds details, classify as 'search' or 'refinement' depending on whether products were shown
+- Examples:
+  * Previous: "office chairs in black", Current: "with armrests" → 'search' (accumulate: office chair + black + armrests)
+  * Previous search showed products, Current: "cheaper" → 'refinement'
+  * No previous context, Current: "with armrests" → 'search' (enough detail to search)
 
 PRODUCT REFERENCES EXAMPLES:
-- "the first one" -> {{"type": "ordinal", "indices": [0]}}
-- "the second and third" -> {{"type": "ordinal", "indices": [1, 2]}}
-- "it" / "that" / "this" -> {{"type": "pronoun", "indices": [0]}} (default to first if ambiguous)
-- "the white one" -> {{"type": "descriptive", "description": "white"}}
-- "the cheaper option" -> {{"type": "descriptive", "description": "cheaper"}}
+- "the first one" → {{"type": "ordinal", "indices": [0]}}
+- "the second and third" → {{"type": "ordinal", "indices": [1, 2]}}
+- "it" / "that" / "this" → {{"type": "pronoun", "indices": [0]}} (default to first if ambiguous)
+- "the white one" → {{"type": "descriptive", "description": "white"}}
+- "the cheaper option" → {{"type": "descriptive", "description": "cheaper"}}
 
 Return ONLY valid JSON, no other text. Do not use markdown formatting."""
 
@@ -364,24 +391,45 @@ def chatbot(state: AgentState):
         if intent == 'follow_up' and last_shown:
             ref_type = intent_data.get('product_references', {}).get('type', 'none')
             referenced_products = []
+            last_mentioned_indices = []  # Track which products we're discussing
             
             if ref_type == 'ordinal':
                 indices = intent_data['product_references'].get('indices', [])
                 referenced_products = [last_shown[i] for i in indices if i < len(last_shown)]
+                last_mentioned_indices = indices
             elif ref_type == 'pronoun':
-                # Default to first product if "it" or "that"
-                referenced_products = [last_shown[0]] if last_shown else []
+                # Check if there's a "last_mentioned" in state (from previous follow-up)
+                # This allows "this one" to refer to the product just discussed
+                last_mentioned = state.get('last_mentioned_product_index')
+                
+                if last_mentioned is not None and last_mentioned < len(last_shown):
+                    # Use the last mentioned product
+                    referenced_products = [last_shown[last_mentioned]]
+                    last_mentioned_indices = [last_mentioned]
+                else:
+                    # Default to first product if no context
+                    referenced_products = [last_shown[0]] if last_shown else []
+                    last_mentioned_indices = [0] if last_shown else []
             elif ref_type == 'descriptive':
                 desc = intent_data['product_references'].get('description', '')
                 referenced_products = resolve_descriptive_reference(last_shown, desc)
+                # Try to find indices of matched products
+                for prod in referenced_products:
+                    prod_name = prod.get('metadata', {}).get('name')
+                    for i, shown_prod in enumerate(last_shown):
+                        if shown_prod.get('metadata', {}).get('name') == prod_name:
+                            last_mentioned_indices.append(i)
+                            break
             else:
                 # Fallback: assume they mean the context of what was shown
                 referenced_products = last_shown[:3]
+                last_mentioned_indices = [0, 1, 2]
                 
             if not referenced_products:
                 return {
                     "messages": [AIMessage(content="I'm not sure which product you're referring to. Could you be more specific?")],
-                    "last_shown_products": last_shown, "cart_items": cart_items
+                    "last_shown_products": last_shown, 
+                    "cart_items": cart_items
                 }
             
             # Generate specific answer with better formatting
@@ -400,13 +448,21 @@ PRODUCTS IN QUESTION:
 USER'S QUESTION: "{query}"
 
 Answer their question based on the product information above. Be specific and helpful.
+
+IMPORTANT INSTRUCTIONS:
+- If the user asks for a comparison (e.g., "compare this and the fourth chair"), provide a detailed comparison of the products
+- If they ask for "more details" after previously asking about a specific product, provide details about THAT product (not the first one by default)
+- The context matters - pay attention to which product they were just discussing
+
 Format your response in HTML with:
-- Use <strong> for emphasis
+- Use <strong> for emphasis (NOT markdown ** syntax)
 - Use <p> for paragraphs
 - Use bullet points (<ul><li>) for features
+- Use <h3> or <h4> for section headings
 - Keep it conversational and friendly
+- NEVER use ** for bold - always use <strong> tags
 
-If they asked about "the first one", focus on that specific product."""
+If comparing products, structure the comparison clearly with sections for each product."""
 
             response = call_gemini_api(follow_up_prompt)
             
@@ -417,7 +473,8 @@ If they asked about "the first one", focus on that specific product."""
             
             return {
                 "messages": [AIMessage(content=response + product_cards_html)],
-                "last_shown_products": last_shown  # Keep same products
+                "last_shown_products": last_shown,  # Keep same products
+                "last_mentioned_product_index": last_mentioned_indices[0] if last_mentioned_indices else None  # Track for next pronoun reference
             }
 
         # CASE 4: Add to Cart
@@ -448,8 +505,16 @@ If they asked about "the first one", focus on that specific product."""
                             "cart_items": cart_items
                         }
             
-            # Now use LLM to resolve which product user wants
-            if available_products:
+            # Check if user is using a pronoun reference (like "this chair", "add it")
+            ref_type = intent_data.get('product_references', {}).get('type', 'none')
+            if ref_type == 'pronoun' and state.get('last_mentioned_product_index') is not None:
+                # User is referring to the product they were just discussing
+                last_idx = state.get('last_mentioned_product_index')
+                if last_idx < len(available_products):
+                    target_product = available_products[last_idx]
+            
+            # If we didn't resolve via pronoun context, use LLM to resolve
+            if not target_product and available_products:
                 resolution = resolve_product_reference(
                     query=query,
                     available_products=available_products,
@@ -467,7 +532,7 @@ If they asked about "the first one", focus on that specific product."""
                     matched_name = matched.get('metadata', {}).get('name', 'this product')
                     
                     return {
-                        "messages": [AIMessage(content=f"Just to confirm, did you want to add **{matched_name}** to your cart? (Reasoning: {resolution['reasoning']})")],
+                        "messages": [AIMessage(content=f"Just to confirm, did you want to add <strong>{matched_name}</strong> to your cart? (Reasoning: {resolution['reasoning']})")],
                         "last_shown_products": available_products,
                         "cart_items": cart_items
                     }
@@ -642,8 +707,28 @@ If they asked about "the first one", focus on that specific product."""
                     "cart_items": cart_items
                 }
 
-        # CASE 5: Search or Refinement
-        elif intent in ['search', 'refinement', 'clarification']:
+
+        # CASE 5: Clarification - Vague Query (CHECK THIS FIRST!)
+        # Check this BEFORE search logic to ensure vague queries get clarification questions
+        if intent == 'clarification' or is_vague_query(query, state.get('pending_clarification_context')):
+            # User asked for something too vague, show clarification questions
+            clarification_response = generate_clarification_questions(query)
+            
+            # Set context to track that we're in clarification mode
+            clarification_context = {
+                "original_query": query,
+                "timestamp": str(messages[-1]) if messages else ""
+            }
+            
+            return {
+                "messages": [AIMessage(content=clarification_response)],
+                "last_shown_products": last_shown,
+                "cart_items": cart_items,
+                "pending_clarification_context": clarification_context
+            }
+
+        # CASE 6: Search or Refinement
+        elif intent in ['search', 'refinement']:  # Removed 'clarification' from this list
             # Check if we have enough info to search
             category = intent_data.get('product_category')
             # Ensure prefs is a dict even if intent_data provides null
@@ -667,14 +752,15 @@ If they asked about "the first one", focus on that specific product."""
             has_prefs = bool(prefs.get('price_range') or prefs.get('colors') or prefs.get('features'))
             has_category = bool(category)
             
-            # If we have category + at least one preference, or it's a refinement, SEARCH
-            if (has_category and has_prefs) or intent == 'refinement':
+            # PERMISSIVE: Search if we have ANYTHING - category OR preferences OR it's a refinement
+            # This allows "black chairs", "chairs with armrests", "office chairs" all to work
+            if has_category or has_prefs or intent == 'refinement':
                 # For refinement, merge with previous context if available
                 if intent == 'refinement' and last_shown:
                     # Extract what they originally searched for from the conversation
                     # Try to get category from last shown products or use generic
                     if not category:
-                        category = "furniture"
+                        category = "chair"
                     
                     # Build refined query combining original context with new preferences
                     query_parts = []
@@ -699,13 +785,19 @@ If they asked about "the first one", focus on that specific product."""
                 else:
                     # Regular search - Construct search query
                     search_terms = []
-                    if category: search_terms.append(category)
+                    
+                    # Always add "chair" if no specific category
+                    if category:
+                        search_terms.append(category)
+                    else:
+                        search_terms.append("chair")  # Default to "chair" for generic search
+                    
                     if prefs.get('colors'): search_terms.extend(prefs['colors'])
                     if prefs.get('features'): search_terms.extend(prefs['features'])
                     if prefs.get('price_range', {}).get('max'):
                         search_terms.append(f"under ${prefs['price_range']['max']}")
                     
-                    search_query = " ".join(search_terms) if search_terms else query
+                    search_query = " ".join(search_terms) if search_terms else "chair"
                     
                     print(f"DEBUG: Searching for: {search_query}")
                     
@@ -773,70 +865,56 @@ Just the intro, no product details."""
                         "pending_search_context": None  # Clear pending context
                     }
             
-            # If clarification needed (e.g. "Office chairs" but no details)
+            # If somehow we get here with no info at all, trigger clarification
             else:
-                clarification_prompt = f"""User said: "{query}"
-
-They haven't provided enough detail for a good search.
-Ask for:
-1. Price range
-2. Color preference
-3. Specific features (like wheels, armrests, adjustable height, etc.)
-
-Be conversational and friendly. Keep it to 2-3 sentences max."""
-                response = call_gemini_api(clarification_prompt)
+                # Trigger our structured clarification instead of generic LLM response
+                clarification_response = generate_clarification_questions(query)
                 
                 # Set pending context so we can merge their next response
                 new_pending_context = {
-                    'category': category if category else 'products',
+                    'category': category if category else 'chairs',
                     'preferences': prefs if prefs else {}
                 }
                 
                 return {
-                    "messages": [AIMessage(content=response)],
+                    "messages": [AIMessage(content=clarification_response)],
                     "last_shown_products": last_shown,
                     "cart_items": cart_items,
                     "pending_search_context": new_pending_context
                 }
 
-        # CASE 9: Clarification - Vague Query
-        elif intent == 'clarification' or is_vague_query(query, state.get('pending_clarification_context')):
-            # User asked for something too vague, show clarification questions
-            clarification_response = generate_clarification_questions(query)
-            
-            # Set context to track that we're in clarification mode
-            clarification_context = {
-                "original_query": query,
-                "timestamp": str(messages[-1]) if messages else ""
-            }
-            
-            return {
-                "messages": [AIMessage(content=clarification_response)],
-                "last_shown_products": last_shown,
-                "cart_items": cart_items,
-                "pending_clarification_context": clarification_context
-            }
-
         # CASE 3: Greeting or Other
         else:
             # General conversational response
-            chat_prompt = f"""You are a helpful IKEA assistant.
-Recent conversation:
-{analyze_user_intent.__doc__} # Just using docstring as placeholder, actual history passed in prompt
-
-User said: "{query}"
-
-Respond naturally. If they said hi, greet them. If they asked a general question, answer it."""
-            
-            # Better prompt
             history_text = "\n".join([m.content for m in messages[-3:]])
-            chat_prompt = f"""You are a helpful IKEA assistant.
+            
+            # Check if user asked about non-chair furniture
+            non_chair_keywords = ['table', 'desk', 'sofa', 'bed', 'couch', 'dresser', 'cabinet', 'shelf']
+            query_lower = query.lower()
+            if any(keyword in query_lower for keyword in non_chair_keywords) and 'chair' not in query_lower:
+                # Redirect to chairs
+                response = "<p>I appreciate your interest! However, I'm specifically designed to help you find the perfect <strong>chair</strong> from IKEA's collection.</p><p>I can help you search for office chairs, dining chairs, armchairs, and more! Would you like to explore our chair options?</p>"
+                return {
+                    "messages": [AIMessage(content=response)],
+                    "last_shown_products": last_shown, "cart_items": cart_items
+                }
+            
+            chat_prompt = f"""You are a helpful IKEA Chair Shopping Assistant.
+
+IMPORTANT: You ONLY help with chairs. Your specialty is IKEA chairs.
+
 Conversation:
 {history_text}
 
 User: {query}
 
-Respond naturally and helpfully."""
+Respond naturally and helpfully. If greeting, mention you're here to help find chairs.
+Keep responses focused on chairs.
+
+Formatting instructions:
+- Use HTML tags for formatting: <strong> for emphasis, <p> for paragraphs, <ul><li> for lists
+- NEVER use markdown ** syntax - always use <strong> tags instead
+- Keep responses clean and well-structured"""
             
             response = call_gemini_api(chat_prompt)
             return {
@@ -1054,7 +1132,7 @@ def run_chat_loop():
         if final_response:
             history.append(AIMessage(content=final_response))
 
-def handle_query(query: str, messages: list, last_products: list, cart_items: list = None, pending_context: dict = None) -> tuple:
+def handle_query(query: str, messages: list, last_products: list, cart_items: list = None, pending_context: dict = None, last_mentioned_index: int = None) -> tuple:
     """Process a single user query with session state.
     
     Args:
@@ -1063,9 +1141,10 @@ def handle_query(query: str, messages: list, last_products: list, cart_items: li
         last_products: List of product dicts shown to user
         cart_items: List of items in cart (local state)
         pending_context: Dict with pending search context for multi-turn conversations
+        last_mentioned_index: Index of last product discussed (for pronoun resolution)
         
     Returns:
-        tuple: (response_string, updated_messages, updated_products, updated_cart, updated_pending_context)
+        tuple: (response_string, updated_messages, updated_products, updated_cart, updated_pending_context, updated_last_mentioned_index)
     """
     if cart_items is None:
         cart_items = []
@@ -1078,7 +1157,8 @@ def handle_query(query: str, messages: list, last_products: list, cart_items: li
         "messages": messages,
         "last_shown_products": last_products,
         "cart_items": cart_items,
-        "pending_search_context": pending_context
+        "pending_search_context": pending_context,
+        "last_mentioned_product_index": last_mentioned_index
     }
     
     # Run chatbot node directly (bypassing graph for now to keep it simple/synchronous)
@@ -1090,6 +1170,7 @@ def handle_query(query: str, messages: list, last_products: list, cart_items: li
     updated_products = result.get("last_shown_products", last_products)
     updated_cart = result.get("cart_items", cart_items)
     updated_pending = result.get("pending_search_context", pending_context)
+    updated_last_mentioned = result.get("last_mentioned_product_index", last_mentioned_index)
     
     response_text = ""
     if response_msgs:
@@ -1098,7 +1179,7 @@ def handle_query(query: str, messages: list, last_products: list, cart_items: li
             response_text = last_msg.content
             messages.append(last_msg)
             
-    return response_text, messages, updated_products, updated_cart, updated_pending
+    return response_text, messages, updated_products, updated_cart, updated_pending, updated_last_mentioned
 
 def calculate_cart_total(cart_items: list) -> dict:
     """Calculate cart subtotal, tax, and total."""
@@ -1136,58 +1217,35 @@ def is_vague_query(query: str, clarification_context: dict = None) -> bool:
     
     query_lower = query.lower().strip()
     
-    # Vague patterns that need more details
+    # Vague patterns that need more details - updated to catch more variations
     vague_patterns = [
-        r'^(show|find|looking for|want|need)\s+(a|an|some)?\s*(chair|table|desk|sofa|furniture)s?\s*$',
-        r'^(chair|table|desk|sofa|furniture)s?\s*$',
-        r'^browse\s+(chair|furniture)s?',
-        r'^(i|I)\s+(want|need)\s+(a|an)\s+(chair|table)',
+        r'(^|\s)(show|find|looking for|want|need|searching for|browse)\s+(a|an|some)?\s*chairs?\s*$',
+        r'^(i|I)\s+(was|am|\'m)\s+(looking for|wanting|needing|searching for)\s+(a|an|some)?\s*chairs?\s*$',
+        r'^chairs?\s*$',
+        r'^(i|I)\s+(want|need)\s+(a|an|some)?\s*chairs?\s*$',
+        r'^(any|some)\s+chairs?\s*$',
     ]
     
     for pattern in vague_patterns:
-        if re.match(pattern, query_lower):
+        if re.search(pattern, query_lower):
             return True
     
     return False
 
 def generate_clarification_questions(query: str) -> str:
-    """Generate interactive clarification questions with clickable chips."""
-    return """I'd love to help you find the perfect furniture! 🛋️
+    """Generate simple text clarification questions."""
+    return """<p>I'd love to help you find the perfect chair! 🪑</p>
 
-Let me ask a few questions to narrow down your search:
+<p>To narrow down your search, could you tell me:</p>
 
-<div style="margin: 20px 0;">
-    <strong>1. What type are you looking for?</strong><br>
-    <div class="quick-actions" style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='office chair';document.querySelector('form').submit()">Office chair</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='dining chair';document.querySelector('form').submit()">Dining chair</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='armchair';document.querySelector('form').submit()">Armchair</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='outdoor chair';document.querySelector('form').submit()">Outdoor chair</div>
-    </div>
-</div>
+<ol style="margin-left: 20px; line-height: 1.8;">
+    <li><strong>What type of chair?</strong> (e.g., office chair, dining chair, armchair, outdoor chair)</li>
+    <li><strong>What's your budget?</strong> (e.g., under $100, $100-200, $200-300, over $300)</li>
+    <li><strong>Any color preferences?</strong> (e.g., black, white, gray, brown, or any color)</li>
+    <li><strong>What features are important?</strong> (e.g., armrests, wheels, ergonomic, adjustable)</li>
+</ol>
 
-<div style="margin: 20px 0;">
-    <strong>2. What's your budget?</strong><br>
-    <div class="quick-actions" style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='under $100';document.querySelector('form').submit()">Under $100</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='$100 to $200';document.querySelector('form').submit()">$100-$200</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='$200 to $300';document.querySelector('form').submit()">$200-$300</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='over $300';document.querySelector('form').submit()">$300+</div>
-    </div>
-</div>
-
-<div style="margin: 20px 0;">
-    <strong>3. Any color preferences?</strong><br>
-    <div class="quick-actions" style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='black';document.querySelector('form').submit()">Black</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='white';document.querySelector('form').submit()">White</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='gray';document.querySelector('form').submit()">Gray</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='brown';document.querySelector('form').submit()">Brown</div>
-        <div class="quick-action-chip" onclick="document.querySelector('input[name=\\'q\\']').value='any color';document.querySelector('form').submit()">Any color</div>
-    </div>
-</div>
-
-You can type your preferences or click the options above! 💬"""
+<p style="margin-top: 12px;">You can answer all at once or one at a time - I'll understand! For example: <em>"office chair in black with armrests"</em> or just <em>"office chair"</em> to start.</p>"""
 
 if __name__ == "__main__":
     # Simple CLI test loop
